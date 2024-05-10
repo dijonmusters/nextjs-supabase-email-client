@@ -5,6 +5,8 @@ import { SendIcon } from '@/app/icons/send';
 import { EmailBody } from './email-body';
 import { FolderColumn } from '@/app/components/folder-column';
 
+export const dynamic = 'force-dynamic';
+
 export default function Page() {
   return (
     <div className="grid grid-cols-6 gap-2 h-screen p-2">
